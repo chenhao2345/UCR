@@ -1,6 +1,6 @@
 # UCR
 
-Implementation of paper "Unsupervised Lifelong Person Re-identification via Contrastive Rehearsal".
+Implementation of paper ["Unsupervised Lifelong Person Re-identification via Contrastive Rehearsal"](https://arxiv.org/pdf/2203.06468.pdf).
 
 ## Installation
 
@@ -78,4 +78,16 @@ sh supervised_lifelong.sh
 ## Test:
 ```shell
 python examples/test.py --init examples/logs/step3.pth.tar
+```
+
+## Citation
+If you find this project useful, please kindly star our project and cite our paper.
+```bibtex
+@article{chen2022unsupervised,
+  title={Unsupervised Lifelong Person Re-identification via Contrastive Rehearsal},
+  author={Chen, Hao and Lagadec, Benoit and Bremond, Francois},
+  journal={arXiv preprint arXiv:2203.06468},
+  year={2022}
+}
+
 ```
